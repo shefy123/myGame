@@ -2,7 +2,7 @@ let computerSecret ;
 let userInput;
 
 function selectNew() {
-	computerSecret = parseInt(Math.random() * 100);
+	computerSecret = parseInt(Math.random() * 50);
 }
 function guess(){
     userInput =parseInt(document.querySelector("input").value);
