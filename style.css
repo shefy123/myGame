@@ -147,6 +147,11 @@ button {
     color: tomato;
    
 }
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
 @media only screen and (max-width: 400px) {
    button {
     font-size: 16px !important;
@@ -156,7 +161,7 @@ button {
     margin: 8px !important;
     width: 80px;
     height: 80px;
-    font-family: 'Luckiest Guy', cursive !important;
+    font-family: 'Great Vibes', cursive;
    
     }
     .card {
